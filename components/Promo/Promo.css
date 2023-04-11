@@ -1,0 +1,43 @@
+.big-container{
+    background-color: #31b675;
+    margin-top: 70px;
+    display: flex;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+.promo{
+    display: flex;
+   
+}
+.promo_btn{
+    text-align: center;
+    margin-top: 15px;
+}
+.left3{
+    width: 70%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.right3 p{
+    font-size: small;
+}
+.right3{
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+.left3 h2{
+    font-weight: 300;
+}
+.promo_btn p{
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #31b675;
+    width: 120px;
+    font-weight: 500;
+}
