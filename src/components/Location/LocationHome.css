@@ -1,0 +1,77 @@
+.locations{
+    margin-bottom: 50px;
+}
+.locations span{
+    color: #31b675;
+}
+.locations .heading h2{
+    font-weight: 400;
+}
+.locations .line{
+    width: 15%;
+}
+.locations iframe{
+    box-shadow: rgba(48, 153, 56, 0.35) 0px 3px 5px;
+}
+.transport{
+    margin-bottom: 120px;
+}
+.transport .line{
+    width: 15%;
+}
+.transport span{
+    color: #31b675;
+}
+.transport .seccontainer{
+    display: flex;
+}
+
+.righter{
+    width: 35%;
+    background-color: #f3f3f3;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+.centerer{
+    width: 35%;
+    background-color: #FFF;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.lefter{
+    width: 35%;
+    background-color: #f3f3f3;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+.transportList1 {
+    display: flex;
+    justify-content: space-between;
+}
+.transportList1 ul li{
+    margin-bottom: 10px;
+    font-size: medium;
+    padding: 10px;
+    width: 100%;
+}
+.boldList{
+    font-weight: bolder;
+    padding: 10px;
+}
+.transportHead{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #31b675;
+}
+.transportHead::after{
+    content: "";
+    display: flex;
+    width: 20px;
+    height: 2px;
+    background-color: #31b675;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    margin-left: 45%;
+}

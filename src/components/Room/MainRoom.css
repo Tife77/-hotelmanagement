@@ -1,0 +1,141 @@
+.headers h2{
+  font-weight:700;
+}
+.ride{
+  width: 30%;
+}
+.reverse{
+  flex-direction: row-reverse;
+}
+.app{
+  justify-content: center;
+}
+.mainRoom{
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.mainRoom .line{
+  width: 10%;
+}
+.mainRoom h4{
+  margin-top: -5px;
+}
+.headers .active {
+  border-bottom: 3px solid #31b675;
+  width: 100%;
+  justify-content: center;
+}
+.headers .active h2{
+  color:#31b675;
+}
+.centerName{
+  text-align: center;
+}
+.roominc{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+.roominc p{
+  font-size: small;
+}
+  .headers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+  }
+  .rooms{
+    margin-top: 30px;
+  }
+
+  /******Group Card Styling****/
+.up{
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.group-card{
+  display: flex;
+  margin-top: 20px;
+  gap: 30px;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.gcleft {
+  width: 45%;
+}
+.gcleft img{
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 7px;
+}
+.gcright{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.gcright p{
+  font-weight: 300;
+  font-size: medium;
+  padding: 7px;
+}
+.gcright h3{
+  font-weight: 500;
+}
+
+.group-card-buttons{
+  display: flex;
+  gap: 20px;
+}
+
+.greenbtn{
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #31b675;
+  border-radius: 3px;
+  color: white;
+  font-size: small;
+  font-weight: 700;
+}
+.greenbtn:hover{
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  border-radius: 3px;
+  color: #31b675;
+  font-size: small;
+  font-weight: 700;
+  outline: 1px #31b675 solid;
+}
+.whitebtn{
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  border-radius: 3px;
+  color: #31b675;
+  font-size: small;
+  font-weight: 700;
+  outline: 1px #31b675 solid;
+}
+.whitebtn:hover{
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #31b675;
+  border-radius: 3px;
+  color: white;
+  font-size: small;
+  font-weight: 700;
+}
+.group-cards{
+  margin-top: 50px;
+}
+

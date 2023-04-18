@@ -1,0 +1,12 @@
+.location h2{
+    font-weight: 400;
+}
+.location{
+    margin-bottom: 120px;
+}
+.location iframe{
+    box-shadow: rgba(48, 153, 56, 0.35) 0px 3px 5px;
+}
+.location .line{
+    width: 15%;
+}

@@ -1,0 +1,40 @@
+.restaurant{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+.restaurant h2{
+    color: #31b675;
+    font-weight: 400;
+}
+.left2{
+    width: 100%;
+}
+.right2{
+    width: 100%;
+}
+.right2 p{
+    margin-top: 15px;
+}
+.restaurant img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 7px;
+
+}
+.restaurant_btn{
+    text-align: center;
+    margin-top: 25px;
+}
+.restaurant_btn p{
+    padding: 5px;
+    background-color: #31b675;
+    border-radius: 7px;
+    color: #ffffff;
+    width: 150px;
+    font-weight: 300;
+}
+.restaurant_btn p:hover{
+    background-color: #13834d;
+}

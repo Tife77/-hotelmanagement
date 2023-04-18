@@ -1,0 +1,59 @@
+.roomHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.roomHome h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+
+.roomHome span {
+    color: #31b675;
+}
+
+.roomHome .row2 {
+    padding: 20px;
+}
+
+.roomCard {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 1px;
+    background-color: white;
+}
+.roomCard  p:hover{
+    color: #31b675;
+}
+.row2 :hover {
+    color: #31b675;
+}
+
+.roomHome .row2 :hover {
+    text-decoration: underline;
+    color: #31b675;
+    outline: #31b675;
+}
+
+.roomCard img {
+    padding: -20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.roomText p {
+    padding-left: 10px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    font-weight: bold;
+    color: black;
+}
+
+.tops {
+    margin-top: 25px;
+}
+.roomHome button :hover{
+    background: #147a49;
+}
